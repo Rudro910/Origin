@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 70px 90px 0px 90px;
+    font-family: cursive;
+}
+html {
+    scroll-behavior: smooth;
+}
+div {
+    margin-top: 40px;
+}
+#hero {
+    box-shadow: 5px 5px 5px 5px  rgba(0.1, 0.1, 0.1, 0.1);
+    height: 638px;
+    width: 100%;
+    border-radius: 40px;
+    border: 1px solid #a8a8a868;
+    background-image: url(./Assets/hero-bg.png);
+    background-repeat: repeat;
+	background-size: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero .leftDiv, #hero .rightDiv{
+	height: 100%;
+	width: 50%;
+}
+#hero .leftDiv {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+}
+#hero .leftDiv .why{
+     font-weight: bold;
+    font-size: 60px;
+}
+#hero .leftDiv span{
+    color: #F411CF;
+}
+#hero .leftDiv .what{
+    color:#A8A8A8;
+}
+#hero .leftDiv .buttons{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+#hero .leftDiv .buttons #left{
+    background-color: #872BFF;
+    height: 50px;
+	width: 145px;
+	border: 0;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 40px;
+}
+#hero .leftDiv .buttons #right{
+     height: 50px;
+    width: 145px;
+    border-radius: 40px;
+    color:#872BFF;
+    font-size: 14px;
+    border-color: #872BFF;
+}
+#hero .rightDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;            
+}
+#services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#services p {
+    font-size: 24px;
+    font-family: Plus Jakarta Sans;
+    /* font-weight: bold;*/
+    color: #F411CF;
+}l 
